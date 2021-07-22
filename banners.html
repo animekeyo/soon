@@ -186,7 +186,7 @@
             const page = $(this).attr('page');
             const totalpg = Number(page) + 1;
             console.log(totalpg)
-            $.getJSON('http://banners-api.animekeyo.com/?p=' + totalpg, function(api) {
+            $.getJSON('https://banners-api.animekeyo.com/?p=' + totalpg, function(api) {
                 console.log(api)
                 $.each(api, function(o, v) {
 
@@ -242,7 +242,7 @@
                 }
             }
         )
-        $.getJSON('http://banners-api.animekeyo.com/?p=0', function(api) {
+        $.getJSON('https://banners-api.animekeyo.com/?p=0', function(api) {
             console.log(api)
             $.each(api, function(o, v) {
 
