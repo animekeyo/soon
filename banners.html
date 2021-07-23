@@ -69,17 +69,23 @@
         }
         
         .main-111 {
-            height: 4rem;
+            height: 2.5rem;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            padding: 0.5rem;
+            margin: 0.25rem 0.5rem;
+            border-radius: 5px;
+        }
+        
+        .main-1113 {
+            width: fit-content;
         }
         
         .main-112 {
             margin-top: 4rem;
             min-height: 10rem;
-            background: var(--r2);
-            border-radius: 0.5rem;
+            border-radius: 5px;
             display: grid;
             grid-gap: 16px;
             padding: 1rem;
@@ -121,12 +127,12 @@
         }
         
         .main-11211x {
-            filter: blur(30px)brightness(0.5);
-            width: 29rem;
-            height: 18rem;
-            top: -3.5rem;
-            left: -6rem;
-        }
+    filter: blur(30px)brightness(0.2);
+    width: 29rem;
+    height: 18rem;
+    top: -3.5rem;
+    left: -6rem;
+}
         
         .main-11213 {
             margin: 5px 7px;
@@ -144,7 +150,6 @@
         }
         
         .main-11213 svg {
-            margin-top: 5px;
             width: 1rem;
             height: 1rem;
             padding: 0.3rem;
@@ -216,6 +221,56 @@
             -o-animation: rotating 1s linear infinite;
             animation: rotating 1s linear infinite;
         }
+        
+        .main-1112 {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            width: -webkit-fill-available;
+            gap: 1rem;
+        }
+        
+        .main-1111x {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 1rem;
+            width: fit-content;
+            font-size: 0.9rem;
+            font-family: sans-serif;
+            FONT-WEIGHT: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .main-1111x {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 1rem;
+        }
+        
+        .main-1111x1 {
+            width: fit-content;
+        }
+        
+        @media only screen and (max-width:447px) {
+            .main-112 {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                grid-template-columns: unset;
+                grid-gap: unset;
+                padding: unset;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .main-1121 {
+                border-radius: 0px;
+            }
+        }
     </style>
 </head>
 
@@ -224,10 +279,24 @@
         <div fw rr ff class="main-11">
             <div fw aa ff class="main-111">
 
-                <div style="background-image: url(https://media.discordapp.net/attachments/399102162459688960/867489253113200670/Group_4.png);" fbg fw ff class="main-1111">
 
-                </div>
                 <div fw ff class="main-1112">
+                    <div style="background-image: url(https://media.discordapp.net/attachments/399102162459688960/867489253113200670/Group_4.png);" fbg fw ff class="main-1111">
+
+                    </div>
+                    <div fw ff class="main-1111x">
+                        <div fw ff class="main-1111x1">
+                            Banners
+                        </div>
+                        <div fw ff class="main-1111x1">
+                            Profile Pics
+                        </div>
+                        <div fw ff class="main-1111x1">
+
+                        </div>
+                    </div>
+                </div>
+                <div fw ff class="main-1113">
 
                 </div>
             </div>
